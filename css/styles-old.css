@@ -162,7 +162,7 @@ button {
 
  /* section-hero */
 
-.section-hero {
+/* .section-hero {
    max-width: 1440px;
    width: 100%;
    margin: 0 auto;
@@ -174,9 +174,9 @@ button {
    padding-top: 188px;
    padding-bottom: 188px;
    
-}
+} */
 
-.title {
+/* .title {
    font-weight: 700;
    font-size: 56px;
    line-height: 1.07;
@@ -185,39 +185,21 @@ button {
    color: #fff;
    margin: 0 auto 48px;
    max-width: 496px;
-}
+} */
+/*    */
 
-.button-hero {
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 1.5;
-   letter-spacing: 0.04em;
-   color: #fff;
-   background-color: #4d5ae5;
-   cursor: pointer;
-   border-radius: 4px;
-   border: 0;
-   padding: 16px 32px;
-   height: 56px;
-   margin: 0 auto;
-   display: block;
-   min-width: 169px;
-   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   transition-property: background-color;
-}
-
-.button-hero:hover,
+/* .button-hero:hover,
 .button-hero:focus {
    background-color: #404bbf;
-}
+} */
 
 /* section-concept */
 
-.section-concept {
+/* .section-concept {
     padding: 120px 0;
-}
+} */
 
-.titel-concept  {
+/* .titel-concept  {
    position: absolute;
    width: 1px;
    height: 1px;
@@ -228,19 +210,19 @@ button {
    clip-path: inset(100%);
    clip: rect(0 0 0 0);
    overflow: hidden;
-}
+} */
 
-.concept-list {
+/* .concept-list {
    display: flex;
    align-items: center;
    gap: 24px;
-}
+} */
 
-.concept-item {
+/* .concept-item {
    width: calc((100% - 3*24px) / 4);
-}
+} */
 
-.consept-box {
+/* .consept-box {
    display: flex;
    align-items: center;
    justify-content: center;
@@ -250,24 +232,24 @@ button {
    height: 112px;
    background-color: #f4f4fd;
    margin-bottom: 8px;
-}
+} */
 
-.subtitle-concept {
+/* .subtitle-concept {
    font-weight: 500;
    font-size: 20px;
    line-height: 1.2;
    letter-spacing: 0.02em;
    color: #2e2f42;
    margin-bottom: 8px;
-}
+} */
 
-.text-concept {
+/* .text-concept {
    font-weight: 400;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: #434455;
-}
+} */
 
 /* section-team */
 
