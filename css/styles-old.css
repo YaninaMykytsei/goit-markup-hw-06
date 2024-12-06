@@ -434,21 +434,21 @@ button {
 
 /* page-footer */
 
-.page-footer {
+/* .page-footer {
    background: #2e2f42;
    padding: 100px 0;
-}
+} */
 
-.footer-logo .logo-part {
+/* .footer-logo .logo-part {
    color: #f4f4fd;
-}
+} */
 
-.footer-logo {
+/* .footer-logo {
    display: inline-block;
    margin-bottom: 16px;
-}
+} */
 
-.text-footer {
+/* .text-footer {
    font-weight: 400;
    font-size: 16px;
    line-height: 1.5;
@@ -456,36 +456,36 @@ button {
    color: #f4f4fd;
    width: 264px;
    height: 72px;
-}
+} */
 
-.social-media {
+/* .social-media {
    font-weight: 500;
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: #fff;
    margin-bottom: 16px;
-}
-
+} */
+/* 
 .footer-container {
    display: flex;
    align-items: baseline;
-}
+} */
 
-.footer-logo-box {
+/* .footer-logo-box {
    margin-right: 120px;
-}
+} */
 
-.social-list-footer {
+/* .social-list-footer {
    display: flex;
    gap: 16px;
-}
+} */
 
-.social-item-footer {
+/* .social-item-footer {
    width: 40px;
    height: 40px;
-}
+} */
 
-.social-link-footer {
+/* .social-link-footer {
    display: flex;
    align-items: center;
    justify-content: center;
@@ -495,33 +495,35 @@ button {
    border-radius: 50%;
    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
    transition-property: background-color;
-}
+} */
 
-.social-link-footer:hover,
+/* .social-link-footer:hover,
 .social-link-footer:focus {
    background-color: #31d0aa;
-}
+} */
 
 /* form footer */
- .subscribe-box {
+ /* .subscribe-box {
    margin-left: auto;
-}
+} */
 
- .subscribe-form {
+
+
+ /* .subscribe-form {
    display: flex; 
    gap: 24px;  
-}
+} */
  
-.subscribe-text {
+/* .subscribe-text {
    font-weight: 500;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: #fff;
    margin-bottom: 16px;
-}
+} */
 
-.subscribe-input {
+/* .subscribe-input {
    border: 1px solid #fff;
    border-radius: 4px;
    width: 264px;
@@ -532,25 +534,25 @@ button {
    font-size: 12px;
    line-height: 2;
    letter-spacing: 0.04em;
-} 
+}  */
 
-input::placeholder {
+/* input::placeholder {
    font-weight: 400;
    font-size: 12px;
    line-height: 2;
    letter-spacing: 0.04em;
    color: #fff;
    border: 0;
-}
+} */
 
-.subscribe-icon {
+/* .subscribe-icon {
    fill: #fff;
    width: 24px;
    height: 24px;
    margin-left: 16px;
-}
+} */
 
-.button-subscribe {
+/* .button-subscribe {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -566,12 +568,11 @@ input::placeholder {
    color: #ffffff;
    width: 165px;
    height: 40px;
-   cursor: pointer;
-}
+} */
 
 /* modal */
 
- .backdrop {
+ /* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -583,15 +584,15 @@ input::placeholder {
   pointer-events: none;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
- }
+ } */
 
-.backdrop.is-open {
+/* .backdrop.is-open {
    opacity: 1;
    visibility: visible;
    pointer-events: auto;
-}
+} */
 
-.modal {
+/* .modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -605,13 +606,13 @@ input::placeholder {
   padding: 72px 24px 24px 24px;
   display: flex;
   flex-direction: column;
-}
+} */
 
-.backdrop:not(.is-open) .modal {
+/* .backdrop:not(.is-open) .modal {
    transform: translate(-50%, -50%) scale(1.5);
-}
+} */
 
-.button-close {
+/* .button-close {
    width: 24px;
    height: 24px;
    position: absolute;
@@ -626,27 +627,27 @@ input::placeholder {
    align-items: center;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
    padding: 0;
-}
+} */
 
-.close-modal {
+/* .close-modal {
    fill :250ms cubic-bezier(0.4, 0, 0.2, 1);
    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.button-close:hover,
+/* .button-close:hover,
 .button-close:focus {
    background-color: #404bbf;
    border: none;
    fill: #fff;
-}
+} */
 
 /* form */
 
-.modal-form {
+/* .modal-form {
    width: 100%;
-}
+} */
 
-.input-box {
+/* .input-box {
    margin-bottom: 8px;
 }
 
@@ -658,9 +659,9 @@ input::placeholder {
    text-align: center;
    color: #2e2f42;
    margin-bottom: 16px;
-}
+} */
 
-.label-input {
+/* .label-input {
    display: block;
    font-weight: 400;
    font-size: 12px;
@@ -668,25 +669,25 @@ input::placeholder {
    letter-spacing: 0.04em;
    color: #8e8f99;
    margin-bottom: 4px;
-}
+} */
 
-.input-position {
+/* .input-position {
    position: relative;
-}
+} */
 
- .input-line {
+ /* .input-line {
    border: 1px solid rgba(46, 47, 66, 0.4);
    border-radius: 4px;
    width: 100%;
    height: 40px;
    outline: transparent;
    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
+} */
+/* 
 .icon-input-line {
    padding-left: 38px;
-}
-
+} */
+/* 
  .input-line:hover,
  .input-line:focus {
     border-color: #4D5AE5;
@@ -703,9 +704,9 @@ input::placeholder {
    transform: translateY(-50%);
    cursor: pointer;
    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.form-comment {
+/* .form-comment {
    height: 120px;
    resize: none;
    padding: 8px 16px;
@@ -718,12 +719,13 @@ input::placeholder {
 
 .box-comment {
    margin-bottom: 16px;
-}
+} */
 
 /* checkbox */
-.box-checkbox {
+
+/* .box-checkbox {
    margin-bottom: 24px;
-}
+} */
 
 /* .visually-hidden {
    position: absolute;
@@ -738,9 +740,9 @@ input::placeholder {
    overflow: hidden;
 } */
 
-.privacy-label {
+/* .privacy-label {
    cursor: pointer;
-}
+} */
 
 .custom-checkbox {
    width: 16px;
