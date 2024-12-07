@@ -73,6 +73,7 @@ button {
 @media screen and (min-width: 1158px) {
 .container {
         max-width: 1158px;
+        padding: 0 15px;
     }
 }
 
@@ -427,7 +428,7 @@ button {
 }
 
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+only screen and (min-width: 768px) and (min-resolution: 2dppx) {
     .section-hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)), url(../images/hero/people-office_tab@2x.jpg);
@@ -452,7 +453,7 @@ button {
 }
 
 @media only screen and (min-width: 1158px) and (min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+only screen and (min-width: 1158px) and (min-resolution: 2dppx) {
     .section-hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)), url(../images/hero/people-office_desk@2x.jpg);
@@ -836,16 +837,23 @@ button {
      margin-bottom: 16px;
  }
 
+.footer-logo-box {
+     margin-bottom: 72px;
+}
+
  .text-footer {
      font-weight: 400;
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
      color: #f4f4fd;
-     margin-bottom: 72px;
-
+    
  }
 
+.footer-social-box {
+    margin-bottom: 72px;
+}
+ 
  .social-media {
      font-weight: 500;
      line-height: 1.5;
@@ -860,7 +868,7 @@ button {
      display: flex;
      justify-content: center;
      gap: 16px;
-     margin-bottom: 72px;
+    
  }
 
  .social-item-footer {
@@ -886,13 +894,15 @@ button {
  }
 
  @media screen and (min-width: 768px) {
+    .container.footer-container {
+        padding: 0 108px;
+    }
     .logo.footer-logo, .social-media{
         justify-content: left;
     }
 
     .tablet-box {
         display: flex;
-        margin-left: 108px;
         margin-bottom: 72px;
     }
 
@@ -903,6 +913,10 @@ button {
  }
 
  @media screen and (min-width: 1158px) {
+    .container.footer-container {
+        padding: 0 15px;
+    }
+    
     .page-footer {
         padding: 100px 0;
     }
@@ -923,10 +937,6 @@ button {
 }
 
 /* form footer */
-
-.subscribe-box {
-    margin-left: auto;
- }
 
  .subscribe-form {
     display: flex;
@@ -1002,12 +1012,12 @@ input::placeholder {
        display: flex;
        flex-direction: row;
        gap: 24px;
-       margin-left: 108px;
     }
+
     .subscribe-text {
        text-align: left;
-       margin-left: 108px;
     }
+
     .button-subscribe {
         margin-left: 0;
     }
@@ -1024,6 +1034,10 @@ input::placeholder {
     .tablet-box {
         margin-left: 0;
         margin-bottom: 0;
+    }
+
+    .subscribe-box {
+       margin-left: auto;
     }
 }
 
