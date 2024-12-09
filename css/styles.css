@@ -37,7 +37,7 @@ button {
     cursor: pointer;
 }
 
-.img {
+img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -906,9 +906,14 @@ only screen and (min-width: 1158px) and (min-resolution: 2dppx) {
         margin-bottom: 72px;
     }
 
+    .footer-social-box {
+            margin-bottom: 0; 
+    }
+            
     .footer-logo-box {
         max-width: 264px;
         margin-right: 24px;
+        margin-bottom: 0;
     }
  }
 
